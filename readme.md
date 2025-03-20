@@ -77,57 +77,61 @@
 
 **Code Availability: ❌**
 
-**Data Availability: **
+**Data Availability: ✅**
 
 [**CVPR2024**-Hallucidoctor: Mitigating hallucinatory toxicity in visual instruction data](http://openaccess.thecvf.com/content/CVPR2024/html/Yu_HalluciDoctor_Mitigating_Hallucinatory_Toxicity_in_Visual_Instruction_Data_CVPR_2024_paper.html)
 
-**Task: **
+**Task: Mitigating Hallucinatory**
 
 **FACTUAL usage:**
 
-- 
+- Aswer Chunks Extraction
+![alt text](image-1.png)
 
-**Code Availability: ❌**
+**Code Availability: ✅**
 
-**Data Availability: **
+**Data Availability: ✅**
 
 [**CVPR2024**-Meacap: Memory-augmented zero-shot image captioning](http://openaccess.thecvf.com/content/CVPR2024/html/Zeng_MeaCap_Memory-Augmented_Zero-shot_Image_Captioning_CVPR_2024_paper.html)
 
-**Task: **
+**Task: Zero-shot Image Captioning**
 
 **FACTUAL usage:**
 
-- 
+- convert topk relevant description into triples.
+- merge nodes to get key concepts
 
-**Code Availability: ❌**
+![alt text](image-2.png)
+**Code Availability: ✅**
 
-**Data Availability: **
+**Data Availability: ⚠️(Available but too short, MSCOCO dataset etc.)**
 
-[**CVPR2024**-Generative region-language pretraining for open-ended object detection](http://openaccess.thecvf.com/content/CVPR2024/html/Lin_Generative_Region-Language_Pretraining_for_Open-Ended_Object_Detection_CVPR_2024_paper.html)
+~~[**CVPR2024**-Generative region-language pretraining for open-ended object detection](http://openaccess.thecvf.com/content/CVPR2024/html/Lin_Generative_Region-Language_Pretraining_for_Open-Ended_Object_Detection_CVPR_2024_paper.html)~~
 
-**Task: **
+~~**Task: **~~
 
-**FACTUAL usage:**
+~~**FACTUAL usage:**~~
 
-- 
+~~**Code Availability: ❌**~~
 
-**Code Availability: ❌**
-
-**Data Availability: **
+~~**Data Availability: **~~
 
 [**ACM'MM2024**-HICEScore: A Hierarchical Metric for Image Captioning Evaluation](https://dl.acm.org/doi/abs/10.1145/3664647.3681358)
 
-**Task: **
+**Task: Metric for Image Captioning Evaluation**
 
 **FACTUAL usage:**
 
-- 
+- parse candidates and human reference caption into triples
+- cal score between encoded triples and encoded image segments from SAM
 
-**Code Availability: ❌**
+![alt text](image-3.png)
 
-**Data Availability: **
+**Code Availability: ❌ Coming soon...**
 
-[**Arxiv2024**-Evaluating and analyzing relationship hallucinations in large vision-language models](https://arxiv.org/abs/2406.16449)
+**Data Availability: ⚠️(Available but too short, MSCOCO dataset etc.)**
+
+[**ICML2024**-Evaluating and analyzing relationship hallucinations in large vision-language models](https://arxiv.org/abs/2406.16449)
 
 **Task: **
 
