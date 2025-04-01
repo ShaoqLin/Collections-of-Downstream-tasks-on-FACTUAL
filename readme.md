@@ -1,5 +1,3 @@
-[![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/ShaoqLin/Awesome-FND-RD-FC-GTD)
-
 # <p align=center>`A collection of down stream tasks using FACTUAL`</p>
 
 **A collection of down stream tasks using [FACTUAL](https://arxiv.org/pdf/2305.17497)**
@@ -7,6 +5,7 @@
 ## All papers cite FACTUAL
 
 ### 2025
+
 [**Arxiv2025**-CutPaste&Find: Efficient Multimodal Hallucination Detector with Visual-aid Knowledge Base](https://arxiv.org/abs/2502.12591) 
 
 **Task: Multimodal Hallucination Detection**
@@ -62,6 +61,38 @@
 **Code Availability: ❌**
 
 **Data Availability: ⚠️(Available but too short, VG dataset etc.)**
+
+[**CVPR2025**-Benchmarking Large Vision-Language Models via Directed Scene Graph for Comprehensive Image Captioning](https://arxiv.org/abs/2412.08614)
+
+**Task: Benchmarking Large Vision-Language Models**
+
+**FACTUAL usage: Just Cited**
+
+- 
+
+      {
+        "category": "jar",
+        "short_description": "a jar with white condiments.",
+        "mask_out": "eJzt0sFRA0EQwEBnR/4Z8YcCfDtzFgXdEeihxwMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD+iLeP6iD+j0/zeZCX+eo+B/IC3+1nQO71/X0O5FY/72dAbvPMfg7kJk/uZ0Du8PR+BmTfhf0MyLpL/xmQXdf2MyCrru7nPzZd/s+A7Lm+nwFZc7Kf/1hytJ8BWXL4nwHZcLqf/1hwvJ//WHD+nwEZG+znP6Ym+/mPodF+BmRmuJ//mJju5z8m/EdovJ//GPAfofl+/uPYwn7+45j/KPmP0MZ+/uOU/yj5j9DKfv7jkP0o+Y+S/yjZj8rGe/7jlP3oLN3nP47Yj5D9KNmPkP0I2Y+S/QjZj5D9CNmPkP0o2Y+Q/Sj5j5L9CNmPkv0I2Y+S/SjZj5L9KNmPkv0o2Y+S+yjZj5L/KNmPlP0o+Y+S/UjZj5L/KNmPlPso2Y+U/Sj5j5T9SNmPlP1I2Y+U/0jZj5b7aNmPlv1ouY+Y9wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgN/sHZ5riqI=",
+        "extend_description": "A cylindrical glass jar with a slightly domed metal lid is filled with white condiments, with the glass material transparent.",
+        "relation": [
+          "The jar is on the countertop."
+        ]
+      },
+      {
+        "category": "appliance",
+        "short_description": "a silvery and black electronic appliance.",
+        "mask_out": "eJzt0gluFEEQRUEfr+9/IgQIxIxn6aWqnpEjLpD5pffxAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAx21b/QHf2SZAQpsACW2bAulsf9SP8C1tmwLpbDfqb/huNgES2u7VD/GtfOpPgSz0oD8Bssyj/hTIKo/7UyBrPOtPgazwvD8BMt+L/gTIdK/6EyCzvexPgEz2uj8BMteb/hTIVG/7EyATve9PgMyzoz8BMs2e/gTILLv6UyCT7OxPgEyxtz8BMoP+KO3uT4FMcKA/ATLckf4EyGiH+hMggx3rT4CMdbA/ATLU0f4EyEiH+xMgAx3vT4CMc6I/ATLMmf4UyCjn+hMgY5zsT4AMcbY/ATLC6f4EyADn+xMg113oT4BcdqU/BXLVtf4EyDUX+xMgl1ztT4Bccbk/AXLB9f4EyHkD+hMgp43oT4CcNaQ/BXLSoP4EyCmj+hMgZwzrT4CcMK4/AXLcwP4EyGEj+xMgRw3tT4AcNLY/AXLM4P4EyCGj+xMgRwzvT4AcML4/AbLfhP4EyG4z+hMge03pT4DsNKc/AbLPpP4EyC6z+hMge0zrT4DsMK8/BfLezP4EyDtT+xMgb8ztT4C8Nrk/AfLS7P4EyCvT+xMgL8zvT4A8t6A/AfLUiv4EyDNL+hMgT6zpT4A8tqg/AfLQqv4EyCPL+hMgD6zrT4B8trA/AfLJyv4EyL2l/QmQO2v7EyC3FvcnQG6s7k+A/Gt5fwrkH/qjFPQnQP4q+lMgfzT9CZDfov4EyC/6o1T1J0B+0h8l/VHK+hMgH/qjpT9K+qOkP0r6o6Q/Sl1/AkR/tPRHSX+U9Ecp7E+A6I+U/ijpj5L+KOmPkv4o6Y+S/ijpj5L+KOmPkv4o6Y+S/ijpj5L+KOmPkv4oyY+S/iitDU5+3NIfJf1R0h+lpf3d1Qgr+7tVL+cr0B8l/VGSHyX9UZIfJf1R0h+lZbnpjwcW9Xevns0XoT9K+qOkP0r6oyQ/SvKjpD9Ka7PTH7eW9ic/7qzsT37c0x8l+VHSHyX9UZIfpQXByY+n9Edpfn/y47ll3emPB9b2V6/lq1mV389L9Va+nnX9wWf6oyQ/SvKjpD5K8qM0LTv9sYP+KM3qT37soT9K8qMkP0r6oyQ/SvKjJD9K8qOkP0ryoyQ/SvqjJD9K+qMkP0ryo6Q+SvKjpD9K8qMkP0ryoyQ/SvqjJD9K8qMkP0rqoyQ/SvqjJD9K8qMkP0ryoyQ/SvKjpD5K8qMkP0ryoyQ/SvKjJD9K8qMkP0rqo6Q+SuqjpD5K8qMkP0ryoyQ/SvKjJD5K6qOkPkrqoyQ/SuqjJD5K8qMkP0ryoyQ+StqjpD5K4qOkPEryo6Q+SuIDAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP53PwAcmqOb",
+        "extend_description": "The silver and black electronic appliance features a silver-colored metallic section with a smooth and reflective surface and a black control panel with various buttons, each labeled with white text.",
+        "relation": [
+          "The appliance is on the countertop.",
+          "The appliance is next to the dish."
+        ]
+      }
+
+**Code Availability: ✅**
+
+**Data Availability: ✅ (medium length)**
 
 
 ### 2024
@@ -133,147 +164,106 @@
 
 [**ICML2024**-Evaluating and analyzing relationship hallucinations in large vision-language models](https://arxiv.org/abs/2406.16449)
 
-**Task: **
+**Task: Relationship Hallucination (relation-relation, subject-relation, relation-object)**
 
 **FACTUAL usage:**
 
-- 
+-  extract relationship triplets from COCO captions.( Subsequently, leveraging the LLM, we generate ‘Yes’ or ‘No’ questions based on both nocaps captions and the pre-extracted set of relationships.)
 
-**Code Availability: ❌**
+![alt text](image-4.png)
 
-**Data Availability: **
+**Code Availability: ✅**
+
+**Data Availability: ⚠️(Available but too short, nocaps dataset.)**
 
 [**Arxiv2024**-Benchmarking and improving detail image caption](https://arxiv.org/abs/2405.19092)
 
-**Task: **
+**Task: Detail Image Caption Benchmarking**
 
 **FACTUAL usage:**
 
-- 
+- Core information extraction
 
-**Code Availability: ❌**
+- extract objects, attributes and relations from a given caption for following matching modules
 
-**Data Availability: **
+- We match the extracted elements from candidate and ground truth captions through a stop words filtering module and a three-stage matching strategy.
+
+![alt text](image-5.png)
+
+**Code Availability: ✅**
+
+**Data Availability: ✅ (Adopted)**
 
 [**Arxiv2024**-A Survey of Hallucination in Large Visual Language Models](https://arxiv.org/abs/2410.15359)
 
-**Task: **
+**Task: Survey**
 
 **FACTUAL usage:**
 
-- 
+- Introduce FACTUAL in HalluciDoctor
 
 **Code Availability: ❌**
 
-**Data Availability: **
+**Data Availability: ❌**
 
-[**Arxiv2024**-Reminding multimodal large language models of object-aware knowledge with retrieved tags](https://arxiv.org/abs/2406.10839)
+[**EMNLP2024**-Tag-grounded Visual Instruction Tuning with Retrieval Augmentation](https://aclanthology.org/2024.emnlp-main.120.pdf)
 
-**Task: **
+**Task: Enhancing MLM in identify novel objects or entities, mention of non-existent objects, find object’s attributed details**
 
 **FACTUAL usage:**
 
-- 
+- parse each caption into a set of tags
+- use tags as an additional representation to enhance model performance
+
+![alt text](image-6.png)
 
 **Code Availability: ❌**
 
-**Data Availability: **
-
-[**Arxiv2024**-Benchmarking Large Vision-Language Models via Directed Scene Graph for Comprehensive Image Captioning](https://arxiv.org/abs/2412.08614)
-
-**Task: **
-
-**FACTUAL usage:**
-
-- 
-
-**Code Availability: ❌**
-
-**Data Availability: **
+**Data Availability: ✅ LLaVA-665K and ShareGPT4V-665K**
 
 [**IJCNN2024**-Exploiting Visual Relation and Multi-Grained Knowledge for Multimodal Relation Extraction](https://ieeexplore.ieee.org/abstract/document/10650770/?casa_token=FJRI0PJeWbsAAAAA:3ohJpVxbhc91_5Mh5hHpuy-heFHNoBMtGfb-aIlEevUMFdZ3ncEpQjeIxSBD6Lo4bFQS9B4tIfOi)
 
-**Task: **
+**Task: Multimodal Relation Extraction**
 
 **FACTUAL usage:**
 
-- 
+- obtain text scene graphs
+- Textual tokens and visual objects in two scene graphs are encoded by CLIP
+- Similarity scores between two scene graphs are computed to obtain initial node and relation representations for the unified multimodal graph.
+
+![alt text](image-7.png)
 
 **Code Availability: ❌**
 
-**Data Availability: **
+**Data Availability: ⚠️(Available but too short) MNRE**
 
 [**ResearchSquare2024**-Multimodal scene-graph matching for cheapfakes detection](https://www.researchsquare.com/article/rs-4553024/latest)
 
-**Task: **
+**Task: cheapfakes detection**
 
 **FACTUAL usage:**
 
-- 
+- extract textual scene graphs from the captions
+- embed and fuse the parsed scene graphs for classification
+
+![alt text](image-8.png)
 
 **Code Availability: ❌**
 
-**Data Availability: **
+**Data Availability: ⚠️(Available but too short) IEEE ICME 2023 Grand Challenge on Detecting Cheapfakes.**
 
 ### 2023
 
 [**Arxiv2023**-Linear Alignment of Vision-language Models for Image Captioning](https://arxiv.org/abs/2307.05591)
 
-**Task: **
+**Task: Alignment of Vision-language Models for Image Captioning**
 
 **FACTUAL usage:**
 
-- 
+- ❌ Not using FACTUAL but SoftSPICE
 
 **Code Availability: ❌**
 
-**Data Availability: **
+**Data Availability: ⚠️(Available but too short) MS-COCO and Flickr30k**
 
 
-## Categories
-**Following [Awesome-Fake-News-Detection](https://github.com/wangbing1416/Awesome-Fake-News-Detection), we split this repo into four categories.**
-|:cat:|:dog:|:tiger:|:wolf:|
-|------|------|------|------|
-|[1.Fake News Detection(FND)(虚假新闻检测)](#1)|[2.Rumor Detection(RD)(谣言检测)](#2)|[3.Fact-Checking(FC)(事实核查)](#3)|[4.Generated Texts Detection(GTD)(生成文本检测)](#4)|
-
-## 📢 Updates
-:fire: Last Updated 2024.03.25
-
-- **2024.3.25**: Added 5 papers of 1.1.1.2 Domain Adaptation; Added 2 papers of 1.1.1.3 Knowledge base-based
-- **2024.3.21**: Added 8 papers of 1.1.1.1 Supervised Learning
-
-
-## <a name="1">1.Fake News Detection(FND)(虚假新闻检测)</a>
-
-### <a name="1.1">1.1 Context-based FND(基于内容的虚假新闻检测)</a>
-
-#### <a name="1.1.1">1.1.1 Text-only Methods</a>
-
-##### <a name="1.1.1.1">1.1.1.1 Supervised Learning</a>
-|Abbreviation|Title|Publication|Paper|Code|Device Requirement|
-|:---:|---|:---:|:---:|:---:|:---:|
-|**FTT**|**Learn over Past, Evolve for Future: Forecasting Temporal Trends for Fake News Detection**|ACL2023|[paper](https://arxiv.org/pdf/2306.14728.pdf)|[code](https://github.com/ICTMCG/FTT-ACL23)|single GPU|
-|**FakingFakeNews**|**Faking Fake News for Real Fake News Detection: Propaganda-loaded Training Data Generation**|ACL2023|[paper](https://arxiv.org/pdf/2203.05386.pdf)|[code](https://github.com/khuangaf/FakingFakeNews)|single V100|
-|**NEP**|**Zoom Out and Observe: News Environment Perception for Fake News Detection**|ACL2022|[paper](https://aclanthology.org/2022.acl-long.311.pdf)|[code](https://github.com/ICTMCG/News-Environment-Perception)|single GPU|
-|**CofCED**|**A Coarse-to-fine Cascaded Evidence-Distillation Neural Network for Explainable Fake News Detection**|COLING2022|[paper](https://aclanthology.org/2022.coling-1.230.pdf)|[code](https://github.com/Nicozwy/CofCED)|single GPU|
-|**DS**|**Demystifying Neural Fake News via Linguistic Feature-Based Interpretation**|COLING2022|[paper](https://aclanthology.org/2022.coling-1.230.pdf)|None|single GPU|
-|**ENDEF**|**Generalizing to the Future: Mitigating Entity Bias in Fake News Detection**|SIGIR2022|[paper](https://arxiv.org/pdf/2204.09484.pdf)|[code](https://github.com/ICTMCG/ENDEF-SIGIR2022)|single GPU|
-|**ECML**|**Early Detection of Fake News with Multi-source Weak Social Supervision**|ECML2021|[paper](https://arxiv.org/pdf/2004.01732.pdf)|[code](https://github.com/microsoft/MWSS)|>=1 GPU|
-|**MDEFND**|**Mining Dual Emotion for Fake News Detection**|ECML2021|[paper](https://arxiv.org/pdf/2004.01732.pdf)|[TensorFlow code](https://github.com/RMSnow/WWW2021)|Unknown|
-
-
-##### <a name="1.1.1.2">1.1.1.2 Domain Adaptation</a>
-|Abbreviation|Title|Publication|Paper|Code|Device Requirement|
-|:---:|---|:---:|:---:|:---:|:---:|
-|**DITFEND**|**Improving Fake News Detection of Influential Domain via Domain- and Instance-Level Transfer**|COLING2022|[paper](https://arxiv.org/pdf/2209.08902.pdf)|[code](https://github.com/ICTMCG/DITFEND)|~ single GPU|
-|**REAL-FND**|**Domain Adaptive Fake News Detection via Reinforcement Learning**|WWW2022|[paper](https://arxiv.org/pdf/2202.08159.pdf)|None|Unknown|
-|**M^3FEND**|**Memory-Guided Multi-View Multi-Domain Fake News Detection**|TKDE2022|[paper](https://arxiv.org/pdf/2206.12808.pdf)/[zhihu](https://zhuanlan.zhihu.com/p/568567527)|[code](https://github.com/ICTMCG/M3FEND)|single GPU|
-|**CWMDFNN**|**Characterizing Multi-domain False News and Underlying User Effects on Chinese Weibo**|IPM2022|[paper](https://arxiv.org/pdf/2205.03068.pdf)|[code](https://github.com/ICTMCG/Characterizing-Weibo-Multi-Domain-False-News)|No GPU required|
-|**FuDFEND**|**FuDFEND: Fuzzy-domain for Multi-domain Fake News Detection**|NLPCC2022|[paper](https://arxiv.org/ftp/arxiv/papers/2205/2205.03778.pdf)|[code](https://github.com/ChaoqiLiang/FuDFEND)|single GPU|
-
-
-##### <a name="1.1.1.3">1.1.1.3 Knowledge base-based</a>
-|Abbreviation|Title|Publication|Paper|Code|Device Requirement|
-|:---:|---|:---:|:---:|:---:|:---:|
-|**KPL**|**Fake News Detection via Knowledgeable Prompt Learning**|IPM2022|[paper](https://www.sciencedirect.com/science/article/pii/S030645732200139X)|[code](https://github.com/Zzoay/disinformation_detection)|~ single GPU|
-|**KAN**|**KAN:Knowledge-aware Attention Network for Fake News Detection**|AAAI2021|[paper](https://aaai.org/papers/00081-kan-knowledge-aware-attention-network-for-fake-news-detection/)|None|Unknown|
